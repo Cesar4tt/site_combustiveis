@@ -7,22 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <h1 id="titulo">Calcule o preço do combustível</h1>
+    
     <div id="div_conteiner">
+        
 
         <div id="div_Combustível">
-            <p>Combustível</p>
-            <label for="dinhero">R$</label>
-            <input type="number" placeholder="Digite o valor" name="valor_cumbustível">
+            <p class="subTitulos" >Valor do Combustível</p>
+            
+            <label class="itens" for="dinhero">R$</label>
+            <input id="preco_cumbustível" type="number" placeholder="Digite o valor" name="valor_cumbustível">
         </div>
 
         <div id="div_tipo_combustível">
-            <p>Tipo de Combustível</p>
+            <p class="subTitulos" >Tipo de Combustível</p>
+
             <input type="radio" id="Gasolina" name="tipo_combustível" value="Gasolina">
-            <label for="Gasolina">Gasolina</label><br>
+            <label class="itens" for="Gasolina">Gasolina</label><br>
+
             <input type="radio" id="Etanol" name="tipo_combustível" value="Etanol">
-            <label for="Etanol">Etanol</label><br>
+            <label class="itens" for="Etanol">Etanol</label><br>
         </div>
 
+        <select name="select_porcentagem" id="porcentagem">
+            <option value="" disabled selected>--Selecione a porcentagem--</option>
+        </select>
+
+        <button id="button"> Calcular</button>
+        <h1>resultado</h1>
     </div>
+    <script src="javaScript.js" type="text/javaScript"></script>
 </body>
 </html>

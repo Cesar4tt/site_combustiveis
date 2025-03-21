@@ -6,7 +6,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
     background-image: url(https://institutocombustivellegal.org.br/wp-content/uploads/2020/10/GASOLINA-x-ETANOL_1920.jpg) ;
     background-position: center;
     background-repeat: no-repeat; 
@@ -23,11 +22,45 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     gap: 20px;
 
     background-color: rgba(240, 248, 255, 0.700);
     width: 700px;
     height: 80vh;
     border-radius: 50px;
+    border: rgb(0, 68, 255) solid 2px;
+}
+
+#titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;  
+}
+
+.subTitulos{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.itens {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+#preco_cumbustível {
+    font-size: 23px;
+    height: 34px;
+    text-align: center;
+    border-radius: 13px;
+    border: rgb(0, 68, 255) solid 2px;
+}
+
+#button {
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
 }
