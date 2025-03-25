@@ -22,20 +22,21 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    gap: 20px;
+    gap: 40px;
 
-    background-color: rgba(240, 248, 255, 0.700);
+    background-color: rgba(240, 248, 255, 0.849);
     width: 700px;
-    height: 80vh;
+    height: 800px;
     border-radius: 50px;
-    border: rgb(0, 68, 255) solid 2px;
+    border: rgb(0, 0, 0) solid 2px;
+    
 }
 
 #titulo{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     position: absolute;
-    top: 17%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%); 
     z-index: 1;  
@@ -52,15 +53,30 @@ body {
 }
 
 #preco_cumbustível {
-    font-size: 23px;
-    height: 34px;
+    font-size: 21px;
+    height: 33px;
+    padding-right: 28px;
     text-align: center;
-    border-radius: 13px;
-    border: rgb(0, 68, 255) solid 2px;
+    border: black solid 2px;
+    border-radius: 10px;
 }
 
 #button {
     width: 150px;
     height: 50px;
     font-size: 25px;
+}
+
+#resultado {
+    font-size: 21px;
+    text-align: center;
+}
+
+#select_porcentagem {
+    font-size: 21px;
+    text-align: center;
+    width: 335px;
+    height: 35px;
+    border: black solid 2px;
+    border-radius: 10px;
 }
