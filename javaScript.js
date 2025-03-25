@@ -1,4 +1,3 @@
-importScripts (Math)
 const selectElement = document.getElementById("select_porcentagem");
 
 function Calcular (){
